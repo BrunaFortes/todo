@@ -1,0 +1,16 @@
+{
+  "name": "todo",
+  "version": "1.0.0",
+  "description": "Lista de tarefas baseado no Microsoft To Do",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "html5",
+    "css3",
+    "node"
+  ],
+  "author": "Bruna Fortes",
+  "license": "MIT"
+}

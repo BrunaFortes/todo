@@ -1,0 +1,32 @@
+/*Tag para cometário*/
+
+/*Fundamentais: 
+inherit - Heraça explícita; 
+inicial - Força a redefinição de valores;
+unset - Desabilita uma propriedade CSS;
+*/
+/*Usado para não fazer contas matemáticas*/
+*{
+    box-sizing: border-box;
+}
+body, h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+/*Responsive Web Design*/
+
+body{
+    background-color: black;
+    color: white;
+}
+
+/*Diferentes mídias*/
+@media(min-width: 768px){
+    body{
+        background-color: unset;
+        color: initial;
+    }
+
+}
